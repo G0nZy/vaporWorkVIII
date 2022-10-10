@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>g0nzy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./journalStyle.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/iconHalo.png">
+</head>
+<body>
+    
+
+    <!-- Particle Effect -->
+    <div id="snow"></div>
+    <!-- End of Particle Effect -->
+
+    <style>
+
+
+/* Particle Snow Effect */
+#snow {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+pointer-events: none;
+z-index: 1000;
+}
+/* End of Snow Effect */
+
+
+    </style>
+
+
+    
+   <!-- NAVBAR -->
+   <nav class="navbar navbar-expand-xxl navbar-light"  style="background-color: rgb(0, 58, 105);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html" style="color: white;" >g0nzy</a>
+    </div>
+  </nav>
+  <!-- END OF NAVBAR -->
+
+
+    <!-- ABOUT ME FIELD BOX -->
+    <div id="aboutMeFieldBox">
+        <h1 id="aboutMeHeading">Notes & Thoughts</h1>
+        <hr id="underLine">
+        <p id="aboutMeText"></p>
+    </div>
+    
+    
+    <div id="aboutMeFieldBox1">
+        <ol>
+
+            <li id="topicLink1"> <a  href="./entry1.html">🌀 Valve Could Lead Us Into The Metaverse... If They Wanted To </a> </li>
+            <span id="dateLog">Thursday March 31, 2022 1:41pm PDT</span>
+
+            <li id="topicLink1"> <a  href="./entry2.html">🌀 NFT's... So What Do We Do Now </a> </li>
+            <span id="dateLog">Sunday March 27, 2022 8:23pm PDT</span>
+
+            <li id="topicLink1"> <a  href="./entry3.html">🌀 War Is A Very Real Possibility </a> </li>
+            <span id="dateLog">Saturday July 9, 2022 12:50pm PDT</span>
+        </ol>
+    </div>
+    
+    <script>// Snow Effect
+        document.addEventListener('DOMContentLoaded', function(){
+            var script = document.createElement('script');
+            script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+            script.onload = function(){
+                particlesJS("snow", {
+                    "particles": {
+                        "number": {
+                            "value": 50,
+                            "density": {
+                                "enable": false,
+                                "value_area": 800
+                            }
+                        },
+                        "color": {
+                            "value": "#133337"
+                        },
+                        "opacity": {
+                            "value": 0.5,
+                            "random": true,
+                            "anim": {
+                                "enable": false
+                            }
+                        },
+                        "size": {
+                            "value": 9,
+                            "random": true,
+                            "anim": {
+                                "enable": false
+                            }
+                        },
+                        "line_linked": {
+                            "enable": false
+                        },
+                        "move": {
+                            "enable": true,
+                            "speed": .5,
+                            "direction": "up",
+                            "random": true,
+                            "straight": false,
+                            "out_mode": "out",
+                            "bounce": true,
+                            "attract": {
+                                "enable": false,
+                                "rotateX": 300,
+                                "rotateY": 1200
+                            }
+                        }
+                    },
+                    "interactivity": {
+                        "events": {
+                            "onhover": {
+                                "enable": false
+                            },
+                            "onclick": {
+                                "enable": false
+                            },
+                            "resize": false
+                        }
+                    },
+                    "retina_detect": true
+                });
+            }
+            document.head.append(script);
+        });
+        // End of Snow Effect</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
