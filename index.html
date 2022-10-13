@@ -207,13 +207,15 @@ https://stackoverflow.com/questions/46855118/click-anywhere-to-close-side-navbar
 
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <!-- <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a> -->
-  <div id="slideHeading">
+  <div >
   <p id="slideHeading">Important Announcements</p>
+  <hr class="slideDivider">
 </div>
+
+<div class="zigZag">
+  <p class="announceHeader">nothing to see here ;)</p>
+</div>
+
 
 
 </div>
@@ -261,6 +263,7 @@ https://stackoverflow.com/questions/46855118/click-anywhere-to-close-side-navbar
   right: 25px;
   font-size: 36px;
   /* margin-left: 50px; */
+  color: white;
 }
 
 
@@ -272,18 +275,37 @@ https://stackoverflow.com/questions/46855118/click-anywhere-to-close-side-navbar
   #slideHeading{
 
 
-    background-color: rgb(235, 113, 235);
+    background-color: #A4A7AA;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+    
+    border-radius: 15px;
     
 
   }
 
-  #slideHeading{
-  
-  text-align: center;
-  opacity: 100%;
-  
-}
+  .slideDivider{
 
+    box-shadow: 5px 5px 5px;
+    padding-top: 2px;
+
+  }
+
+
+  .zigZag{
+    text-align: center;
+    
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .announceHeader{
+    font-size: 20px;
+    color: aquamarine;
+  }
+  
+
+  
 
 </style>
 
