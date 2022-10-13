@@ -6,60 +6,477 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Link Tree</title>
     <link rel="stylesheet" href="./sand.css">
+    <link rel="icon" href="./img/iconHalo.png">
 </head>
 <body>
     
   
-  <div class="navBarMain"  >
+<!-- HEADER -->
 
-    <div class="navbar navB1">
-       <button class="linkBoi" href="#home" onclick="openNav()">
-            <img class="headerImgL" src="./v1/img/navIcons/icons8-magazine-100.png"> 
-            
-       </button>
-       <p class="headerTxtSpace">G0nzy</p>   
-      </div>
+<div class="navBarMain"  >
 
-
-      <div class="navbar navB2">
-        <a class="linkBoi" href="#home">
-            <img class="headerImg" src="./v1/img/iconHalo.png">  
-            <p class="headerTxt">G0nzy's Space</p>  
-        </a> 
-        <!-- <a class="linkBoi" href="#news">News</a>
-        <a class="linkBoi" href="#contact">Contact</a> -->
-      </div>
-
-
-      <div class="navbar navB3">
-        <button class="linkBoi" href="#home">
-            <img class="headerImgR" src="./v1/img/navIcons/icons8-menu-90.svg"> 
-              
-        </button> 
-        <p class="headerTxtSpace">G0nzy</p>   
-        <!-- <a class="linkBoi" href="#news">News</a>
-        <a class="linkBoi" href="#contact">Contact</a> -->
-      </div>
-    
+  <div class="navbar navB1">
+     <button class="linkBoi"  onclick="openNav()">
+          <img class="headerImgL" src="./img/navIcons/icons8-magazine-100.png"> 
+          
+     </button>
+     <p class="headerTxtSpace">G0nzy</p>   
     </div>
-    
-    
-    
-    
-        <div id="mySidebar" class="sidebar">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <!-- <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Clients</a>
-          <a href="#">Contact</a> -->
-          <div id="slideHeading">
-          <p id="slideHeading">Important Announcements</p>
-        </div>
+
+
+    <div class="navbar navB2">
+      <a class="linkBoi" href="./index.html">
+          <img class="headerImg" src="./img/iconHalo.png">  
+          <p class="headerTxt">G0nzy's Space</p>  
+      </a> 
+      <!-- <a class="linkBoi" href="#news">News</a>
+      <a class="linkBoi" href="#contact">Contact</a> -->
+    </div>
+
+
+    <div class="navbar navB3">
+      <button class="linkBoi" onclick="openNav1()">
+          <img class="headerImgR" src="./img/navIcons/icons8-menu-90.svg"> 
+            
+      </button> 
+      <p class="headerTxtSpace">G0nzy</p>   
+      <!-- <a class="linkBoi" href="#news">News</a>
+      <a class="linkBoi" href="#contact">Contact</a> -->
+    </div>
+  
+  </div>
+  
+  
+
+
+  
+
+
+
+
+
+
+    <style>
+
+
+* {
+box-sizing: border-box;
+}
+
+
+.navBarMain{
+background-color: black;
+padding-top: 1%;
+padding-bottom: 1%;
+padding-top: 2%;
+}
+
+
+.navBarMain:after {
+
+
+content: "";
+display: table;
+clear: both;
+
+
+}
+
+      .headerTxt{
+
+          color: white;
+          padding: 0;
+          margin: 0;
+          font-size: 15px;
+
+      }
+
+      .headerTxtSpace{
+        opacity: 0;
+        padding: 0;
+          margin: 0;
+          cursor: default;
+      }
+
+
+      .headerImg{
+
+           width: 60px;
+          border-radius: 25px;
+          margin: 0;
+          
+
+      }
+      .headerImgL{
+
+      width: 50px;
+      border-radius: 25px;
+      /* padding-bottom: 18px; */
+      margin: 0;
+
+      }
+
+.headerImgR{
+
+width: 50px;
+border-radius: 25px;
+
+}
+
+       body{
+          margin: 0;
+      } 
+      
+      
+      .navbar {
+        /* overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+
+
+
+       
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding-top: 5px;
+        
+        text-decoration: none;
+        font-size: 17px; */
+
+        float: left;
+        width: 33.33%;
+        text-align: center;
+        background-color: black;
+        /* padding-top: 2%; */
+        position: foxed;
+        top: 0;
+        z-index: 1;
         
         
-        </div>
-    
-    
+        
+        
+      }
+
+
+.navB1{
+text-align: left;
+padding-left: 5%;
+/* padding-bottom: 1%; */
+padding-top: 1%;
+
+
+}
+.navB2{
+text-align: center;
+color: white;
+font-family: 'Lexend', sans-serif;
+
+}
+.navB3{
+text-align: right;
+padding-right: 5%;
+padding-top: 1%;
+
+}
+
+      
+      .linkBoi {
+      
+        text-decoration: none;
+        cursor: pointer;
+        
+      
+      } 
+      
+      
+      </style>
+
+
+
+
+
+
+
+
+<!-- LEFT SIDE NAV -->
+
+<!-- study this  and look into event listeners rather than onclick events
+https://stackoverflow.com/questions/46855118/click-anywhere-to-close-side-navbar-javascript
+-->
+
+
+<div id="mySidebar" class="sidebar">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div >
+<p id="slideHeading">🚀Announcements🚀</p>
+<hr class="slideDivider">
+</div>
+
+<div class="zigZag">
+<p class="announceHeader">nothing to see here ;)</p>
+</div>
+
+
+
+</div>
+
+
+
+
+<style>
+.sidebar {
+height: 100%; /* 100% Full-height */
+width: 0; /* 0 width - change this with JavaScript */
+position: sticky; /* Stay in place */
+position: fixed;
+z-index: 100; /* Stay on top */
+top: 0;
+left: 0;
+/* background-color: #8B8B8B;  */
+background-color: rgb(139, 139, 139, .85);
+
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 60px; /* Place content 60px from the top */
+ /* 0.5 second transition effect to slide in the sidebar */
+border-bottom-right-radius: 25px;
+box-shadow: 0 5px 3px 3px black, 0 5px 3px 3px black;
+}
+
+@media screen and (max-height: 450px) {
+.sidebar {padding-top: 15px;}
+.sidebar {font-size: 18px;}
+} 
+
+
+.sidebar {
+/* padding: 8px 8px 8px 32px; */
+text-decoration: none;
+font-size: 25px;
+/* color: #818181; */
+display: block;
+
+} 
+
+.closebtn{
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+/* margin-left: 50px; */
+color: white;
+}
+
+
+
+</style>
+
+
+<style>
+#slideHeading{
+
+
+  background-color: #A4A7AA;
+  text-align: center;
+  box-shadow: 5px 5px 5px;
+  
+  border-radius: 15px;
+  
+
+}
+
+.slideDivider{
+
+  box-shadow: 5px 5px 5px;
+  padding-top: 2px;
+
+}
+
+
+.zigZag{
+  text-align: center;
+  
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.announceHeader{
+  font-size: 20px;
+  color: aquamarine;
+}
+
+
+
+
+</style>
+
+
+
+
+
+<script>
+/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+document.getElementById("mySidebar").style.width = "75%";
+//   document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+document.getElementById("mySidebar").style.width = "0";
+document.getElementById("main").style.marginLeft = "0";
+} 
+</script>
+
+
+
+<!-- END OF LEFT SIDE NAV -->
+
+
+
+
+
+
+
+<!-- RIGHT SIDE NAV -->
+
+
+<div id="mySidebar1" class="sidebar1">
+<a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
+
+<div >
+  <div class="linkMenu">
+<a  id="redfinger" href="./aboutMeNew.html"> About Me </a>
+</div>
+
+<div class="linkMenu">
+<a  id="redfinger" href="./test.html"> Games & Experiences </a>
+</div>
+
+<div class="linkMenu">
+<a  id="redfinger" href="./test.html"> Portfolio </a>
+</div>
+
+<div class="linkMenu">
+<a id="redfinger" href="./test.html"> 3D Model Showcase </a>
+</div>
+
+<div class="linkMenu">
+<a id="redfinger" href="./newLinkTree.html"> Links </a>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+
+<style>
+.sidebar1 {
+height: 65%; /* 100% Full-height */
+width: 0; /* 0 width - change this with JavaScript */
+position: sticky; /* Stay in place */
+position: fixed;
+z-index: 100; /* Stay on top */
+top: 0;
+right: 0;
+/* background-color: #8B8B8B;  */
+background-color: rgb(139, 139, 139, .98);
+
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 60px; /* Place content 60px from the top */
+ /* 0.5 second transition effect to slide in the sidebar */
+border-bottom-left-radius: 25px;
+box-shadow: 0 5px 3px 3px black, 0 5px 3px 3px black;
+}
+
+@media screen and (max-height: 450px) {
+.sidebar1 {padding-top: 15px;}
+.sidebar1 {font-size: 18px;}
+} 
+
+
+.sidebar1 {
+/* padding: 8px 8px 8px 32px; */
+text-decoration: none;
+font-size: 25px;
+/* color: #818181; */
+display: block;
+
+} 
+
+.closebtn1{
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+
+color: white;
+
+}
+
+
+
+
+
+</style>
+
+
+<style>
+
+
+
+.linkMenu{
+margin-top: 5%;
+color: #F18090;
+margin-left: 1%;
+text-decoration: none;
+text-align: center;
+}
+
+#redfinger{
+color: #85D4B8;
+
+
+border-radius: 25px;
+padding-left: 3px;
+padding-right: 3px;
+}
+
+
+</style>
+
+
+
+
+
+<script>
+/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav1() {
+document.getElementById("mySidebar1").style.width = "75%";
+//   document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav1() {
+document.getElementById("mySidebar1").style.width = "0";
+document.getElementById("main").style.marginLeft = "0";
+} 
+</script>
+
+
+
+
+
+
+<!-- End of Header -->
+ 
     
     
     
