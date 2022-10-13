@@ -18,7 +18,7 @@
 <div class="navBarMain"  >
 
     <div class="navbar navB1">
-       <button class="linkBoi" href="#home" onclick="openNav()">
+       <button class="linkBoi"  onclick="openNav()">
             <img class="headerImgL" src="./img/navIcons/icons8-magazine-100.png"> 
             
        </button>
@@ -37,7 +37,7 @@
 
 
       <div class="navbar navB3">
-        <button class="linkBoi" href="#home">
+        <button class="linkBoi" onclick="openNav1()">
             <img class="headerImgR" src="./img/navIcons/icons8-menu-90.svg"> 
               
         </button> 
@@ -200,6 +200,12 @@ border-radius: 25px;
 
 
 
+
+
+
+
+<!-- LEFT SIDE NAV -->
+
 <!-- study this  and look into event listeners rather than onclick events
 https://stackoverflow.com/questions/46855118/click-anywhere-to-close-side-navbar-javascript
 -->
@@ -208,7 +214,7 @@ https://stackoverflow.com/questions/46855118/click-anywhere-to-close-side-navbar
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div >
-  <p id="slideHeading">Important Announcements</p>
+  <p id="slideHeading">🚀Announcements🚀</p>
   <hr class="slideDivider">
 </div>
 
@@ -326,6 +332,148 @@ document.getElementById("mySidebar").style.width = "0";
 document.getElementById("main").style.marginLeft = "0";
 } 
 </script>
+
+
+
+<!-- END OF LEFT SIDE NAV -->
+
+
+
+
+
+
+
+<!-- RIGHT SIDE NAV -->
+
+
+<div id="mySidebar1" class="sidebar1">
+  <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
+
+  <div >
+    <div class="linkMenu">
+  <a  id="redfinger" href="./aboutMeNew.html"> About Me </a>
+</div>
+
+<div class="linkMenu">
+  <a  id="redfinger" href="./test.html"> Games & Experiences </a>
+</div>
+
+  <div class="linkMenu">
+  <a  id="redfinger" href="./test.html"> Portfolio </a>
+</div>
+
+  <div class="linkMenu">
+  <a id="redfinger" href="./test.html"> 3D Model Showcase </a>
+</div>
+
+  <div class="linkMenu">
+  <a id="redfinger" href="./newLinkTree.html"> Links </a>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+
+<style>
+  .sidebar1 {
+  height: 65%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: sticky; /* Stay in place */
+  position: fixed;
+  z-index: 100; /* Stay on top */
+  top: 0;
+  right: 0;
+  /* background-color: #8B8B8B;  */
+  background-color: rgb(139, 139, 139, .98);
+ 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+   /* 0.5 second transition effect to slide in the sidebar */
+  border-bottom-left-radius: 25px;
+  box-shadow: 0 5px 3px 3px black, 0 5px 3px 3px black;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar1 {padding-top: 15px;}
+  .sidebar1 {font-size: 18px;}
+} 
+
+
+.sidebar1 {
+  /* padding: 8px 8px 8px 32px; */
+  text-decoration: none;
+  font-size: 25px;
+  /* color: #818181; */
+  display: block;
+ 
+} 
+
+.closebtn1{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  
+  color: white;
+  
+}
+
+
+
+
+
+</style>
+
+
+<style>
+
+
+
+.linkMenu{
+  margin-top: 5%;
+  color: #F18090;
+  margin-left: 1%;
+  text-decoration: none;
+  text-align: center;
+}
+
+#redfinger{
+  color: #85D4B8;
+  
+ 
+  border-radius: 25px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+  
+
+</style>
+
+
+
+
+
+<script>
+  /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav1() {
+document.getElementById("mySidebar1").style.width = "75%";
+//   document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav1() {
+document.getElementById("mySidebar1").style.width = "0";
+document.getElementById("main").style.marginLeft = "0";
+} 
+</script>
+
+
+
 
 
 
@@ -1251,8 +1399,8 @@ top: 0;
 <p id="spacer">blank</p>
 <p id="spacer">blank</p>
 <p id="spacer">blank</p>
-<p id="footTagLine"><span>🌀</span> Made With ❤️ In Seattle, Washington <span>🌀</span></p>
-<!-- <p id="footTagLine">Seattle<span>🌀</span></p> -->
+<p id="footTagLine"><span></span> Made With ❤️ In Seattle <span></span></p>
+<!-- <p id="footTagLine">Seattle<span></span></p> -->
 <p id="spacer">blank</p>
 
 <!-- END OF SPACERS AND FOOTER -->
