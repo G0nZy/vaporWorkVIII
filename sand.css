@@ -5,6 +5,7 @@ body {
   /* background-image: url(../../img/static.png); */
   /* background-image: url(./img/static4.png); */
   font-family: 'Lexend', sans-serif;
+  margin: 0;
  
 
 }
@@ -15,7 +16,7 @@ body {
 /* START OF NAVBAR */
 
 
-            
+
 * {
   box-sizing: border-box;
 }
@@ -25,6 +26,7 @@ body {
   background-color: black;
   padding-top: 1%;
   padding-bottom: 1%;
+  padding-top: 2%;
 }
 
 
@@ -43,7 +45,7 @@ body {
             color: white;
             padding: 0;
             margin: 0;
-            font-size: 22px;
+            font-size: 15px;
 
         }
 
@@ -69,7 +71,6 @@ body {
         border-radius: 25px;
         /* padding-bottom: 18px; */
         margin: 0;
-        
 
         }
 
@@ -80,12 +81,11 @@ border-radius: 25px;
 
 }
 
-         body{
-            margin: 0;
-        } 
+        
         
         
         .navbar {
+        
 
           float: left;
           width: 33.33%;
@@ -96,14 +96,18 @@ border-radius: 25px;
           top: 0;
           z-index: 1;
           
+          
+          
+          
         }
 
 
 .navB1{
   text-align: left;
-  padding-left: 20px;
+  padding-left: 5%;
   /* padding-bottom: 1%; */
-  padding-top: 3%;
+  padding-top: 1%;
+  
   
 }
 .navB2{
@@ -114,8 +118,9 @@ border-radius: 25px;
 }
 .navB3{
   text-align: right;
-  padding-right: 20px;
-  padding-top: 3%;
+  padding-right: 5%;
+  padding-top: 1%;
+  
 }
 
         
@@ -127,86 +132,166 @@ border-radius: 25px;
         
         } 
         
-
-
-
-
-
         
-      
-      
-      /* Side Menu Left */
-      
-        .sidebar {
-        height: 50%; /* 100% Full-height */
-        width: 0; /* 0 width - change this with JavaScript */
-        position: sticky; /* Stay in place */
-        position: fixed;
-        z-index: 100; /* Stay on top */
-        top: 0;
-        left: 0;
-        /* background-color: #8B8B8B;  */
-        background-color: rgb(139, 139, 139, .85);
-       
-        overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 60px; /* Place content 60px from the top */
-         /* 0.5 second transition effect to slide in the sidebar */
-        border-bottom-right-radius: 25px;
-        box-shadow: 0 5px 3px 3px black, 0 5px 3px 3px black;
-      }
-      
-      @media screen and (max-height: 450px) {
-        .sidebar {padding-top: 15px;}
-        .sidebar {font-size: 18px;}
-      } 
-      
-      
-      .sidebar {
-        /* padding: 8px 8px 8px 32px; */
-        text-decoration: none;
-        font-size: 25px;
-        /* color: #818181; */
-        display: block;
-       
-      } 
-      
-      .closebtn{
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        /* margin-left: 50px; */
-      }
-      
-      
-      
-      
-        #slideHeading{
-      
-      
-          background-color: rgb(235, 113, 235);
-          
-      
-        }
-      
-        #slideHeading{
         
-        text-align: center;
-        opacity: 100%;
-        
-      }
-      
-      
-      
-      /* end of side menu left */
-      
-      
-      
-     
+/* Left Side Nav */
+/* study this  and look into event listeners rather than onclick events
+https://stackoverflow.com/questions/46855118/click-anywhere-to-close-side-navbar-javascript */
+
+.sidebar {
+height: 100%; /* 100% Full-height */
+width: 0; /* 0 width - change this with JavaScript */
+position: sticky; /* Stay in place */
+position: fixed;
+z-index: 100; /* Stay on top */
+top: 0;
+left: 0;
+/* background-color: #8B8B8B;  */
+background-color: rgb(139, 139, 139, .85);
+
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 60px; /* Place content 60px from the top */
+ /* 0.5 second transition effect to slide in the sidebar */
+border-bottom-right-radius: 25px;
+box-shadow: 0 5px 3px 3px black, 0 5px 3px 3px black;
+}
+
+@media screen and (max-height: 450px) {
+.sidebar {padding-top: 15px;}
+.sidebar {font-size: 18px;}
+} 
 
 
+.sidebar {
+/* padding: 8px 8px 8px 32px; */
+text-decoration: none;
+font-size: 25px;
+/* color: #818181; */
+display: block;
+
+} 
+
+.closebtn{
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+/* margin-left: 50px; */
+color: white;
+}
+
+
+
+#slideHeading{
+
+
+  background-color: #A4A7AA;
+  text-align: center;
+  box-shadow: 5px 5px 5px;
+  
+  border-radius: 15px;
+  
+
+}
+
+.slideDivider{
+
+  box-shadow: 5px 5px 5px;
+  padding-top: 2px;
+
+}
+
+
+.zigZag{
+  text-align: center;
+  
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.announceHeader{
+  font-size: 20px;
+  color: aquamarine;
+}
+
+
+/* END OF LEFT SIDE NAV */
+
+
+
+/* RIGHT SIDE NAV */
+
+
+  .sidebar1 {
+  height: 65%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: sticky; /* Stay in place */
+  position: fixed;
+  z-index: 100; /* Stay on top */
+  top: 0;
+  right: 0;
+  /* background-color: #8B8B8B;  */
+  background-color: rgb(139, 139, 139, .98);
+ 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+   /* 0.5 second transition effect to slide in the sidebar */
+  border-bottom-left-radius: 25px;
+  box-shadow: 0 5px 3px 3px black, 0 5px 3px 3px black;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar1 {padding-top: 15px;}
+  .sidebar1 {font-size: 18px;}
+} 
+
+
+.sidebar1 {
+  /* padding: 8px 8px 8px 32px; */
+  text-decoration: none;
+  font-size: 25px;
+  /* color: #818181; */
+  display: block;
+ 
+} 
+
+.closebtn1{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  
+  color: white;
+  
+}
+
+
+
+.linkMenu{
+  margin-top: 5%;
+  color: #F18090;
+  margin-left: 1%;
+  text-decoration: none;
+  text-align: center;
+}
+
+#redfinger{
+  color: #85D4B8;
+  
+ 
+  border-radius: 25px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+  
+
+/* END OF RIGHT SIDE NAV */
 
 /* END OF NAVBAR */
+
+
+
+
 
 /* START OF HEADING */
 #mainSubHead1{

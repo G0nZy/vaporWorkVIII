@@ -30,3 +30,19 @@
          el: ".swiper-pagination",
        },
      });
+
+
+
+     
+     // Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+   function openNav1() {
+   document.getElementById("mySidebar1").style.width = "75%";
+   //   document.getElementById("main").style.marginLeft = "250px";
+   }
+   
+   // Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+   function closeNav1() {
+   document.getElementById("mySidebar1").style.width = "0";
+   document.getElementById("main").style.marginLeft = "0";
+   } 
+   
