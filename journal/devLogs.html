@@ -4,53 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>g0nzy</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>/ G 0 n Z y /</title>
     <link rel="stylesheet" href="./journalStyle.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../sand.css" type="text/css">
     <link rel="icon" href="../img/iconHalo.png">
 </head>
 <body>
     
 
-    <!-- Particle Effect -->
-    <div id="snow"></div>
-    <!-- End of Particle Effect -->
+    
 
-    <style>
+<!-- Particle Effect -->
+<div id="snow"></div>
+<!-- End of Particle Effect -->
+
+<style>
 
 
 /* Particle Snow Effect */
-#snow {
+ #snow {
 position: fixed;
 top: 0;
 left: 0;
 right: 0;
 bottom: 0;
 pointer-events: none;
-z-index: 1000;
-}
+z-index: 1;
+} 
 /* End of Snow Effect */
 
 
-    </style>
+</style>
+
+
 
 
     
    <!-- NAVBAR -->
-   <nav class="navbar navbar-expand-xxl navbar-light"  style="background-color: rgb(0, 58, 105);">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html" style="color: white;" >g0nzy</a>
+ 
+<div class="navBarMain"  >
+
+    <div class="navbar navB1">
+       <button class="linkBoi"  onclick="openNav()">
+            <img class="headerImgL" src="../img/navIcons/icons8-magazine-100.png"> 
+            
+       </button>
+       <p class="headerTxtSpace">G0nzy</p>   
+      </div>
+
+
+      <div class="navbar navB2">
+        <a class="linkBoi" href="../index.html">
+            <img class="headerImg" src="../img/iconHalo.png">  
+            <p class="headerTxt">G0nzy's Space</p>  
+        </a> 
+        <!-- <a class="linkBoi" href="#news">News</a>
+        <a class="linkBoi" href="#contact">Contact</a> -->
+      </div>
+
+
+      <div class="navbar navB3">
+        <button class="linkBoi" onclick="openNav1()">
+            <img class="headerImgR" src="../img/navIcons/icons8-menu-90.svg"> 
+              
+        </button> 
+        <p class="headerTxtSpace">G0nzy</p>   
+        <!-- <a class="linkBoi" href="#news">News</a>
+        <a class="linkBoi" href="#contact">Contact</a> -->
+      </div>
+    
     </div>
-  </nav>
+    
+    
+<!-- LEFT SIDE NAV -->
+
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div >
+  <p id="slideHeading">🚀Announcements🚀</p>
+  <hr class="slideDivider">
+</div>
+
+<div class="zigZag">
+  <p class="announceHeader">nothing to see here ;)</p>
+</div>
+
+</div>
+
+
+<!-- END OF LEFT SIDE NAV -->
+
+
+
+
+<!-- RIGHT SIDE NAV -->
+
+
+<div id="mySidebar1" class="sidebar1">
+  <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
+
+  <div >
+    <div class="linkMenu">
+  <a  id="redfinger" href="../aboutMeNew.html"> About Me </a>
+</div>
+
+<div class="linkMenu">
+  <a  id="redfinger" href="../test.html"> Games & Experiences </a>
+</div>
+
+  <div class="linkMenu">
+  <a  id="redfinger" href="../test.html"> Portfolio </a>
+</div>
+
+  <div class="linkMenu">
+  <a id="redfinger" href="../test.html"> 3D Model Showcase </a>
+</div>
+
+  <div class="linkMenu">
+  <a id="redfinger" href="../newLinkTree.html"> Links </a>
+</div>
+
+</div>
+
+
+</div>
   <!-- END OF NAVBAR -->
+
+
+
+
+
 
 
     <!-- ABOUT ME FIELD BOX -->
     <div id="aboutMeFieldBox">
-        <h1 id="aboutMeHeading">Notes & Thoughts</h1>
+        <h1 id="aboutMeHeading">Archives</h1>
         <hr id="underLine">
         <p id="aboutMeText"></p>
     </div>
@@ -59,16 +148,29 @@ z-index: 1000;
     <div id="aboutMeFieldBox1">
         <ol>
 
-            <li id="topicLink1"> <a  href="./entry1.html">🌀 Valve Could Lead Us Into The Metaverse... If They Wanted To </a> </li>
-            <span id="dateLog">Thursday March 31, 2022 1:41pm PDT</span>
+            <li id="topicLink1"> <a  href="./entry1.html">🌀 Valve Already Built The Metaverse 💳</a> </li>
+            <span id="dateLog">March 31, 2022</span>
 
-            <li id="topicLink1"> <a  href="./entry2.html">🌀 NFT's... So What Do We Do Now </a> </li>
-            <span id="dateLog">Sunday March 27, 2022 8:23pm PDT</span>
+            <li id="topicLink1"> <a  href="">🌀 Elons Master Plan 4 Twitter 🐦</a> </li>
+            <span id="dateLog">May 3, 2022</span>
 
-            <li id="topicLink1"> <a  href="./entry3.html">🌀 War Is A Very Real Possibility </a> </li>
-            <span id="dateLog">Saturday July 9, 2022 12:50pm PDT</span>
+            <li id="topicLink1"> <a  href="">🌀 War Is A Very Real Possibility 🌀</a> </li>
+            <span id="dateLog">Saturday July 9, 2022</span>
         </ol>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     <script>// Snow Effect
         document.addEventListener('DOMContentLoaded', function(){
@@ -136,7 +238,9 @@ z-index: 1000;
             document.head.append(script);
         });
         // End of Snow Effect</script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+    <script src="../sand.js"></script>
 
 </body>
 </html>
