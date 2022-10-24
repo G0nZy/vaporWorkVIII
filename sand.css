@@ -1378,3 +1378,119 @@ top: 0;
   }
 
 /* END OF ABOUT ME CSS */
+
+
+
+
+/* START OF JOURNAL ENTRY */
+
+/* JOURNAL PAGE */
+/* JOURNAL HEADING */
+#journalHeadBox {
+  margin-top: 3%;
+  /* border: solid; */
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* background-color: linen; */
+  /* border: .5px solid rgb(110, 110, 110); */
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  font-family: 'Lexend', sans-serif;
+}
+
+#journalHeading{
+  text-align: center;
+  color: #000000;
+  margin-top: 4%;
+  font-family: 'Lexend', sans-serif;
+  /* background-color: aqua;
+  border-radius: 35px; */
+  font-weight: bold;
+}
+#underLineJ{
+  margin-left: 8%;
+  margin-right:10%;
+  font-family: 'Lexend', sans-serif;
+} 
+#date{
+  margin-left: 10%;
+  font-family: 'Lexend', sans-serif;
+}
+/* END OF JOURNAL HEADING */
+
+
+
+
+/* JOURNAL BODY MEAT */
+#journalHeadBox1 {
+
+  margin-top: 3%;
+  border: solid;
+  text-align: left;
+  margin-left: 8%;
+  margin-right: 8%;
+  background-color: linen;
+  background-color: rgb(242, 223, 206);
+  border: .5px solid rgb(110, 110, 110);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: 'Lexend', sans-serif;
+  margin-bottom: 25px;
+  }
+
+  #journalSubTitle{
+
+      margin-left: 7%;
+      text-decoration: underline;
+      color: #000000;
+      margin-top: 4%;
+      font-family: 'Lexend', sans-serif;
+  }
+
+#journalText{
+  text-align:left;
+  margin-left: 4%;
+  margin-right: 2%;
+  color: #000000;
+  font-family: 'Lexend', sans-serif;}
+
+.jLinks{
+  color: blue;}
+
+  .jLinks:visited{
+      text-decoration: none;
+      color: blue;
+  }
+
+  #journalChapter{
+      text-align:left;
+      margin-left: 4%;
+      margin-right: 2%;
+      color: #000000;
+      font-family: 'Lexend', sans-serif;
+      text-decoration: underline;
+  } 
+
+.textImg{
+
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 2%;
+  max-width: 80%;
+
+}
+.textImgT{
+
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 2%;
+}
+
+
+/* END OF JOURNAL ENTRIES */
