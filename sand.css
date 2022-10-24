@@ -1161,3 +1161,211 @@ top: 0;
     /* END OF MOBILE VIEWING */
 
 
+
+
+
+
+    /* NEW LINK TREE CSS */
+
+    #holdingButtonLink{
+      margin-top: 25px;
+      display: block;
+      margin: auto;
+      text-align: center;
+      font-family: 'Lexend', sans-serif;
+      }
+   
+   
+   .tLink{
+   
+      color:inherit;
+        background: linen;
+        padding: 0.3rem 3.4rem;
+        border: 2px solid black;
+        margin-right: 2.6rem;
+        box-shadow: 0 0 0 black;
+        transition: all 0.2s;
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 25px;
+        border-radius: 15px;
+        opacity: 65%;
+        font-family: 'Lexend', sans-serif;
+        text-decoration: none;
+      }
+       
+      
+   #tLink1:hover {
+      transform: scale(1.2);
+      margin-bottom: 30px;
+      cursor: pointer;
+      background-color: #211F1F;
+      color: white;
+      opacity: 100%;
+     text-decoration: underline;
+      box-shadow: 0.7rem 0.7rem 0 black;
+       transform: translate(-0.7rem, -0.7rem);
+     
+     } 
+     #tLink1:active {
+       box-shadow: 0 0 0 black;
+       transform: translate(0, 0);
+     }
+     
+     #tLink2:hover {
+      transform: scale(1.2);
+      margin-bottom: 30px;
+      cursor: pointer;
+      background-color: #1DA1F2;
+      color: white;
+      opacity: 100%;
+      text-decoration: underline;
+      box-shadow: 0.7rem 0.7rem 0 black;
+       transform: translate(-0.7rem, -0.7rem);
+     } 
+     #tLink2:active {
+       box-shadow: 0 0 0 black;
+       transform: translate(0, 0);
+     }
+     
+     #tLink3:hover {
+      transform: scale(1.2);
+      margin-bottom: 30px;
+      cursor: pointer;
+      background-color: #ff5656;
+      color: white;
+      opacity: 100%;
+      text-decoration: underline;
+      box-shadow: 0.7rem 0.7rem 0 black;
+       transform: translate(-0.7rem, -0.7rem);
+     }
+     #tLink3:active {
+       box-shadow: 0 0 0 black;
+       transform: translate(0, 0);
+     }
+   
+     #tLink4:hover {
+      transform: scale(1.2);
+      margin-bottom: 30px;
+      cursor: pointer;
+      background: linear-gradient(180deg,#13AFF0, #FF004F);
+      color: white;
+      opacity: 100%;
+      text-decoration: underline;
+      box-shadow: 0.7rem 0.7rem 0 black;
+       transform: translate(-0.7rem, -0.7rem);
+     }
+     #tLink4:active {
+       box-shadow: 0 0 0 black;
+       transform: translate(0, 0);
+     }
+   
+   
+     #tLink5:hover {
+      transform: scale(1.2);
+      margin-bottom: 30px;
+      cursor: pointer;
+      background-color: #13AFF0;
+      color: white;
+      opacity: 100%;
+      text-decoration: underline;
+      box-shadow: 0.7rem 0.7rem 0 black;
+       transform: translate(-0.7rem, -0.7rem);
+     } 
+     #tLink5:active {
+       box-shadow: 0 0 0 black;
+       transform: translate(0, 0);
+     }
+     
+     #tLink6:hover {
+      transform: scale(1.2);
+      margin-bottom: 30px;
+      cursor: pointer;
+      background-color: #404EED;
+      color: white;
+      opacity: 100%;
+      text-decoration: underline;
+      box-shadow: 0.7rem 0.7rem 0 black;
+       transform: translate(-0.7rem, -0.7rem);
+     } 
+     #tLink6:active {
+       box-shadow: 0 0 0 black;
+       transform: translate(0, 0);
+     }
+     
+     #tLink7{
+       margin-bottom: 50px;
+       
+     }
+     #tLink7:hover {
+      transform: scale(1.2);
+      margin-bottom: 50px;
+      cursor: pointer;
+      /* background-color: #cfc9c9; */
+      background-color: rgb(80,80,97);
+      color: white;
+      opacity: 100%;
+      text-decoration: underline;
+      box-shadow: 0.7rem 0.7rem 0 black;
+       transform: translate(-0.7rem, -0.7rem);
+     } 
+     #tLink7:active {
+       box-shadow: 0 0 0 black;
+       transform: translate(0, 0);
+       
+     }
+
+
+     /* MEDIA VIEWING SETTINGS */
+
+     
+ /* Rules for Desktop */
+ @media only screen and (min-width: 851px) {
+ 
+  #holdingButton {
+      display: none;
+  }
+ 
+  #holdingBox{
+     display: none;
+  }
+ }
+ 
+  /* Rules for Mobile */
+  @media only screen and (max-width: 850px) {
+  
+     .tLink{
+       margin-top: 9%;
+     }  
+  }
+  
+     /* END OF NEW LINK TREE CSS */
+
+
+
+     /* About Me CSS */
+     .aboutCrate{
+      text-align: center;
+  }
+
+  .aboutImg{
+      text-align: center;
+      width: 50%;
+      border-bottom-right-radius: 25px;
+      border-bottom-left-radius: 25px;
+  }
+
+  .textBox{
+      margin-left: 20%;
+      margin-right: 20%;
+      text-align: left;
+      font-family: "Lexend";
+  }
+
+/* END OF ABOUT ME CSS */
