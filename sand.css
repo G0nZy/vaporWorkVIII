@@ -625,6 +625,21 @@ opacity: 100%;
 
 
 
+/* Dev Log Main */
+.blogHeader{
+  text-align: center;
+  font-family: 'Lexend';
+  font-weight: 600;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.catalogBTN{
+  display: block;
+  margin: 0;
+}
+
+
 /* Desktop Dev Log */
 
 .projcard-container {
@@ -921,13 +936,7 @@ font-family: Lexend;
 src: url(./lexend/static/Lexend-Medium.ttf);
 }
 
-.blogHeader{
-  text-align: center;
-  font-family: 'Lexend';
-  font-weight: 600;
-  margin-left: 5%;
-  margin-right: 5%;
-}
+
 .blogCardsGO{
   text-align: center;
   margin-left: 6%;
