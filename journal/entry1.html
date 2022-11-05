@@ -4,23 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>g0nzy</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./journalStyle.css">
+    <title>/ G 0 n Z y /</title>
+   <link rel="stylesheet" type="text/css" href="./journalStyle.css">
+   <link rel="stylesheet" type="text/css" href="../sand.css">
     <link rel="icon" href="../img/iconHalo.png">
 </head>
 <body>
     
     
    <!-- NAVBAR -->
-   <nav class="navbar navbar-expand-xxl navbar-light"  style="background-color: rgb(0, 58, 105);">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html" style="color: white;" id="subNav">g0nzy</a>
+   
+<div class="navBarMain"  >
+
+    <div class="navbar navB1">
+       <button class="linkBoi"  onclick="openNav()">
+            <img class="headerImgL" src="../img/navIcons/icons8-magazine-100.png"> 
+            
+       </button>
+       <p class="headerTxtSpace">G0nzy</p>   
+      </div>
+
+
+      <div class="navbar navB2">
+        <a class="linkBoi" href="../index.html">
+            <img class="headerImg" src="../img/iconHalo.png">  
+            <p class="headerTxt">G0nzy's Space</p>  
+        </a> 
+        <!-- <a class="linkBoi" href="#news">News</a>
+        <a class="linkBoi" href="#contact">Contact</a> -->
+      </div>
+
+
+      <div class="navbar navB3">
+        <button class="linkBoi" onclick="openNav1()">
+            <img class="headerImgR" src="../img/navIcons/icons8-menu-90.svg"> 
+              
+        </button> 
+        <p class="headerTxtSpace">G0nzy</p>   
+        <!-- <a class="linkBoi" href="#news">News</a>
+        <a class="linkBoi" href="#contact">Contact</a> -->
+      </div>
+    
     </div>
-  </nav>
+    
+    
+<!-- LEFT SIDE NAV -->
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div >
+  <p id="slideHeading">🚀Announcements🚀</p>
+  <hr class="slideDivider">
+</div>
+
+<div class="zigZag">
+  <p class="announceHeader">nothing to see here ;)</p>
+</div>
+
+</div>
+<!-- END OF LEFT SIDE NAV -->
+
+
+<!-- RIGHT SIDE NAV -->
+<div id="mySidebar1" class="sidebar1">
+  <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
+
+  <div >
+    <div class="linkMenu">
+  <a  id="redfinger" href="../aboutMeNew.html"> About Me </a>
+</div>
+
+<div class="linkMenu">
+  <a  id="redfinger" href="../test.html"> Games & Experiences </a>
+</div>
+
+  <div class="linkMenu">
+  <a  id="redfinger" href="../test.html"> Portfolio </a>
+</div>
+
+  <div class="linkMenu">
+  <a id="redfinger" href="../test.html"> 3D Model Showcase </a>
+</div>
+
+  <div class="linkMenu">
+  <a id="redfinger" href="../newLinkTree.html"> Links </a>
+</div>
+
+</div>
+
+
+</div>
+
   <!-- END OF NAVBAR -->
 
 
@@ -31,31 +104,30 @@
 <!-- ABOUT ME FIELD BOX -->
 <!-- TITLE -->
     <div id="journalHeadBox">
-        <h1 id="journalHeading">Valve Could Lead Us Into The Metaverse... If They Wanted To</h1>
+        <h1 id="journalHeading">Valve Already Built The Metaverse</h1>
         <hr id="underLineJ">
-        <span id="date">Thursday March 31, 2022 1:41pm PDT</span>
-        <p id="journalText"></p>
+        <span id="date">Thursday March 31, 2022</span>
     </div>
 
 <!-- TITLE -->
 
 <!-- THESIS -->
     <div id="journalHeadBox1">
-        <h4 id="journalSubTitle">Environment</h4> <p id="journalText"> 
+        <h3 id="journalSubTitle">Environment</h3> <p id="journalText"> 
             This is a continuation on the thoughts I found reading an article by Another Mountains Rock & you can check out 
-            the article from Seeking Alpha <a href="https://seekingalpha.com/article/4433526-csgo-skin-market-reflections-on-crypto-speculation-search-for-high-yield">here.</a>
+            the article from Seeking Alpha <a class="jLinks" href="https://seekingalpha.com/article/4433526-csgo-skin-market-reflections-on-crypto-speculation-search-for-high-yield">here.</a>
             This article was one of many inspirations that got me thinking. Wait, this whole NFT thing Valve basically started. Not only that,
             but they could be raking in alot more cash & providing alot more value to customers if they cared at all about the implications of 
             web3.
         </p>
-        <h4 id="journalSubTitle">Thesis</h4>
+        <h3 id="journalSubTitle">Thesis</h3>
         <p id="journalText">Valve could easily control & dominate the online PC gaming NFT market (But they won’t). 
             NFT’s have been in the headlines for many different reasons. We won’t touch on that today. Today we will 
             be speaking about what an NFT Game MarketPlace would look like if it were run by Valve. 
         </p>
-        <p id="journalTextT">
+        <h4 id="journalChapter">
             Cosmetics 
-        </p>
+        </h4>
         <p id="journalText">
             An example of an in game economy/marketplace would be the one found in the game counterstrike global offensive. 
             In counterstrike a player can purchase an in game item from a market of other players selling that item. Items are 
@@ -91,7 +163,7 @@
         So markets for online digital goods have been a thing for awhile now. What makes NFT’s so different? 
         </p>
 
-        <p id="journalTextT">Dividends</p>
+        <h4 id="journalChapter">Dividends</h4>
 
         <p id="journalText">
             Enjoying the fruits of your labor is one of the greatest feelings a human can experience.
@@ -110,7 +182,7 @@
         </p>
 
         
-        <p id="journalTextT">Back to skins.</p>
+        <h4 id="journalChapter">Back to skins.</h4>
 
         <p id="journalText">
             Whenever a new crate drops, its filled with new skins. Who makes these skins? 
@@ -130,22 +202,22 @@
         </p>
 
 
-
-
-
     </div>
 <!-- END OF THESIS -->
 
 
-<div id="holdingButton">                  
-    <button class="btn" onclick="window.location.href='./devLogGO.html';">Back To Logs</button>          
-</div>
-<p id="journalText"></p>
-<p id="journalText"></p>
-<!-- END NEW CONTACT -->
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-      
+
+
+<div class="devArchiveBTN">
+    <a href="./devLogs.html" class="devArchiveBTNText">Archives</a>
+  </div>  
+
+
+
+
+
+<script src="../sand.js"></script>      
 </body>
 </html>
 
