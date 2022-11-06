@@ -79,9 +79,9 @@
     
     // NOT WORKING
     // NEW LINK TREE SCRIPTS 
-    const emailBtn = document.getElementById('tLink7');
-    emailBtn.addEventListener('click', function handleClick(){
-      emailBtn.textContent = 'therealg0nzy@protonmail.ch';
-    });
+    // const emailBtn = document.getElementById('tLink7');
+    // emailBtn.addEventListener('click', function handleClick(){
+    //   emailBtn.textContent = 'therealg0nzy@protonmail.ch';
+    // });
     // END OF LINKTREE SCRIPTS
     
