@@ -946,23 +946,25 @@ margin-right: 6%;
 font-family: 'Lexend';
 
 
+
 }
 
 
 
 .cardLink{
 text-decoration: none;
+
 }
 
 
 
 .card{
 background-color: #FFFFFF;
-border-radius: 15px;
+border-radius: 20px;
 /* box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);  */
 box-shadow: 0 0 10px rgb(49, 49, 49);
-border: 1px solid #888;
-margin-bottom: 7%;
+border: 5px solid #888;
+margin-bottom: 13%;
 
 }
 
