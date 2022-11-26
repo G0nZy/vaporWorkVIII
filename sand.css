@@ -565,6 +565,17 @@ opacity: 90%;
   font-family: 'Lexend', sans-serif;
   margin-top: 2%}
 
+    #portalTag {         
+    margin: 300px auto;         
+    text-align: center;         
+    color: white;         
+    font-size: 8em;         
+    transition: 0.5s;         
+    font-family: Arial, Helvetica, sans-serif;     }       
+    
+    #portalTag:hover {         
+      text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc, 0 10px 0 #ccc,  0 11px 0 #ccc, 0 12px 0 #ccc, 0 20px 30px rgba(0, 0, 0, 0.5);     }
+
   .swiper-slide  {
   display: block;
   width: 100%;
@@ -959,15 +970,15 @@ text-decoration: none;
 
 
 .card{
-background-color: #FFFFFF;
-background-color: #e9ceba;
+background-color: #01828242;
+/* background-color: #e9ceba; */
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 /* box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);  */
 /* box-shadow: 0 5px rgb(49, 49, 49); */
-box-shadow: 1px 15px 1px 1px rgba(0, 0, 0, 0.6);
+box-shadow: 1px 10px 1px 1px rgba(0, 0, 0, 0.3);
 /* border: 5px solid #888; */
 margin-bottom: 13%;
 
