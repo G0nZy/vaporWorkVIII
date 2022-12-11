@@ -1,10 +1,20 @@
+@font-face {
+  font-family: Frutiger;
+  src: url(./fonts/Frutiger.ttf);
+}
+@font-face {
+  font-family: Lexend;
+  src: url(./lexend/static/Lexend-Medium.ttf);
+  }
+  
+
 body {
 
 
   background-color: rgb(218, 224, 231); 
   /* background-image: url(../../img/static.png); */
   /* background-image: url(./img/static4.png); */
-  font-family: 'Lexend', sans-serif; 
+  font-family: Frutiger; 
   margin: 0;
  
 
@@ -23,7 +33,7 @@ body {
 .navBarMain{
   background-color: black;
   padding-top: 1%;
-  padding-bottom: 1%;
+  
   padding-top: 2%;
 }
 
@@ -111,7 +121,7 @@ border-radius: 25px;
 .navB2{
   text-align: center;
   color: white;
-  font-family: 'Lexend', sans-serif;
+  font-family: Frutiger;
   
 }
 .navB3{
@@ -300,7 +310,7 @@ color: white;
   font-size: 25px;
   font-weight: 500px;
   /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
-  font-family: 'Lexend', sans-serif; 
+  font-family: Frutiger; 
   color: #030303;
   
 
@@ -315,7 +325,7 @@ color: white;
   font-size: 25px;
   
   /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
-  font-family: 'Lexend', sans-serif; 
+  font-family: Frutiger; 
   color: #030303;
 }
 #subUnder{
@@ -341,7 +351,7 @@ color: white;
   margin: auto;
   text-align: center;
   /* margin-left: 50%; */
-  font-family: 'Lexend', sans-serif;
+  font-family: Frutiger;
   color: #030303;
 
 }
@@ -362,7 +372,6 @@ transition: all 0.2s;
 display: block;
 margin: auto;
 text-align: center;
-font-family: 'Lexend', sans-serif;
 opacity: 75%;
 border-radius: 25px;
 color: #282828;
@@ -391,7 +400,7 @@ opacity: 100%;
       font-weight: 900;
       /* font-family: 'Trebuchet MS', sans-serif; */
       /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
-      font-family: 'Lexend', sans-serif;
+     
 }
 
       #underHeaderText {
@@ -402,7 +411,7 @@ opacity: 100%;
       font-weight: 900;
       /* font-family: 'Trebuchet MS', sans-serif; */
       /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
-      font-family: 'Lexend', sans-serif;
+      
       margin-bottom: 25px;
 }
   /* END OF HEADER */
@@ -413,7 +422,7 @@ opacity: 100%;
   display: block;
   margin: auto;
   text-align: center;
-  font-family: 'Lexend', sans-serif;
+  
 
 }
 
@@ -436,7 +445,7 @@ transition: all 0.2s;
 display: block;
 margin: auto;
 text-align: center;
-font-family: 'Lexend', sans-serif;
+
 border-radius: 15px;
 opacity: 75%;
 } 
@@ -545,7 +554,7 @@ opacity: 90%;
     .portalText{
       font-size: 35px;
       font-weight: 900px;
-      font-family: 'Lexend', sans-serif;
+      
       color: #444444;
   
     }
@@ -562,7 +571,7 @@ opacity: 90%;
   font-size: 23px;
   color: black;
   font-weight: 500;
-  font-family: 'Lexend', sans-serif;
+  
   margin-top: 2%}
 
     #portalTag {         
@@ -609,7 +618,7 @@ transition: all 0.2s;
 display: block;
 margin: auto;
 text-align: center;
-font-family: 'Lexend', sans-serif;
+
 opacity: 75%;
 border-radius: 10px;
 margin-top: 15%;
@@ -641,7 +650,7 @@ opacity: 100%;
 .blogHeader{
   margin-top: 15%;
   text-align: center;
-  font-family: 'Lexend';
+ 
   font-weight: 600;
   margin-left: 5%;
   margin-right: 5%;
@@ -944,17 +953,13 @@ opacity: 100%;
   /* MOBILE DEV LOG */
   
 
-@font-face {
-font-family: Lexend;
-src: url(./lexend/static/Lexend-Medium.ttf);
-}
 
 
 .blogCardsGO{
   text-align: center;
   margin-left: 6%;
 margin-right: 6%;
-font-family: 'Lexend';
+
 
 
 
@@ -1003,7 +1008,7 @@ text-align: left;
 margin-left: 4%;
 font-weight: 600;
 color: black;
-font-family: 'Lexend';
+
 margin-bottom: 2%;
 }
 
@@ -1102,7 +1107,7 @@ top: 0;
   text-align: center; 
   font-size: 9px;
   font-weight: 700;
-  font-family: 'Lexend', sans-serif;
+
 }
 
  #spacer{
@@ -1205,7 +1210,7 @@ top: 0;
       display: block;
       margin: auto;
       text-align: center;
-      font-family: 'Lexend', sans-serif;
+      
       }
    
    
@@ -1229,7 +1234,7 @@ top: 0;
         font-size: 25px;
         border-radius: 15px;
         opacity: 65%;
-        font-family: 'Lexend', sans-serif;
+        
         text-decoration: none;
       }
        
@@ -1398,7 +1403,7 @@ top: 0;
       margin-left: 20%;
       margin-right: 20%;
       text-align: left;
-      font-family: "Lexend";
+      
   }
 
 /* END OF ABOUT ME CSS */
@@ -1422,14 +1427,14 @@ top: 0;
   border-bottom-right-radius: 25px;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
-  font-family: 'Lexend', sans-serif;
+  
 }
 
 #journalHeading{
   text-align: center;
   color: #000000;
   margin-top: 4%;
-  font-family: 'Lexend', sans-serif;
+  
   /* background-color: aqua;
   border-radius: 35px; */
   font-weight: bold;
@@ -1437,11 +1442,11 @@ top: 0;
 #underLineJ{
   margin-left: 8%;
   margin-right:10%;
-  font-family: 'Lexend', sans-serif;
+  
 } 
 #date{
   margin-left: 10%;
-  font-family: 'Lexend', sans-serif;
+  
 }
 /* END OF JOURNAL HEADING */
 
@@ -1463,7 +1468,7 @@ top: 0;
   border-bottom-right-radius: 25px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  font-family: 'Lexend', sans-serif;
+  
   margin-bottom: 25px;
   }
 
@@ -1473,7 +1478,7 @@ top: 0;
       text-decoration: underline;
       color: #000000;
       margin-top: 4%;
-      font-family: 'Lexend', sans-serif;
+      
   }
 
 #journalText{
@@ -1481,7 +1486,7 @@ top: 0;
   margin-left: 4%;
   margin-right: 2%;
   color: #000000;
-  font-family: 'Lexend', sans-serif;}
+  }
 
 .jLinks{
   color: blue;}
@@ -1496,7 +1501,7 @@ top: 0;
       margin-left: 4%;
       margin-right: 2%;
       color: #000000;
-      font-family: 'Lexend', sans-serif;
+      
       text-decoration: underline;
   } 
 
@@ -1539,7 +1544,7 @@ transition: all 0.2s;
 display: block;
 margin: auto;
 text-align: center;
-font-family: 'Lexend', sans-serif;
+
 opacity: 75%;
 border-top-left-radius: 5px;
 border-top-right-radius: 5px;

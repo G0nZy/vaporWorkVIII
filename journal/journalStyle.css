@@ -19,8 +19,8 @@ border: solid;
 text-align: left;
 margin-left: 5%;
 margin-right: 5%;
-background-color: linen;
-border: .5px solid rgb(110, 110, 110);
+
+/* border: .5px solid rgb(110, 110, 110); */
 border-bottom-left-radius: 25px;
 border-bottom-right-radius: 25px;
 border-top-left-radius: 10px;
