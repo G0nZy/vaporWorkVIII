@@ -28,8 +28,9 @@ border-top-right-radius: 10px;
 font-family: 'Lexend', sans-serif;
 }
 #aboutMeHeading{
-    margin-left: 10%;
+    
     font-family: 'Lexend', sans-serif;
+    text-align: center;
 }
  #underLine{
     margin-left: 10%;
