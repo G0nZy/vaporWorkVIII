@@ -195,17 +195,20 @@ color: white;
 
   background-color: #A4A7AA;
   text-align: center;
-  box-shadow: 5px 5px 5px;
+  box-shadow: 9px 9px 9px;
   
   border-radius: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
   
 
 }
 
 .slideDivider{
 
-  box-shadow: 5px 5px 5px black;
+  /* box-shadow: 5px 5px 5px black; */
   padding-top: 2px;
+  
 
 
 }
