@@ -204,8 +204,9 @@ color: white;
 
 .slideDivider{
 
-  box-shadow: 5px 5px 5px;
+  box-shadow: 5px 5px 5px black;
   padding-top: 2px;
+
 
 }
 
