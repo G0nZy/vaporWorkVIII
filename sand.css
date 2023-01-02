@@ -1416,7 +1416,27 @@ top: 0;
       margin-left: 20%;
       margin-right: 20%;
       text-align: center;
+      border: solid black;
+      border-radius: 15px;
+      padding: 2%;
       
+  }
+
+
+
+
+
+  @media only screen and (max-width: 850px) {
+
+
+  .textBoxMobile{
+
+    margin-left: 10%;
+      margin-right: 10%;
+      padding: 5%;
+
+  }
+
   }
 
 /* END OF ABOUT ME CSS */
